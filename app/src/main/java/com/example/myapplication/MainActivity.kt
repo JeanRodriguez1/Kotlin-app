@@ -14,6 +14,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.myapplication.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
+    companion object{
+        const val moneda = "EUR"
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -27,6 +30,15 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+
+        val fecha = "05/06/1997"
+        var nombre = "Jean"
+
+        nombre = "Luis"
+
+        println(nombre)
+
+
 
 
     }
